@@ -1,19 +1,7 @@
 {
-  "dependencies": {
-    "api": "^5.0.8",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "express-handlebars": "^7.0.7",
-    "method-override": "^3.0.0",
-    "mongoose": "5.13.17",
-    "mongoose-slug-generator": "^1.0.4",
-    "node-sass": "^9.0.0",
-    "nodemon": "^2.0.22",
-    "prettier": "^2.8.8"
-  },
-  "name": "1644",
+  "name": "asm",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
     "watch": "node-sass --watch src/resources/scss/ -o src/public/css/",
@@ -21,22 +9,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Thanh250903/nodejs_thanh/1644.git"
+    "url": "git+https://github.com/Thanh250903/thanhIT.git"
   },
-  "keywords": [
-    "nodejs",
-    "asm"
-  ],
-  "author": "noel",
+  "author": "co",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Thanh250903/nodejs_thanh/issues"
+    "url": "https://github.com/Thanh250903/thanhIT/issues"
   },
-  "homepage": "https://github.com/Thanh250903/nodejs_thanh/1644#readme",
-  "devDependencies": {
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
-    "morgan": "^1.10.0"
+  "homepage": "https://github.com/Thanh250903/thanhIT#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "handlebars": "^4.7.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.10.0",
+    "mongoose-delete": "^1.0.1",
+    "mongoose-slug-generator": "^1.0.4",
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22"
   },
+  "devDependencies": {},
   "description": ""
 }
