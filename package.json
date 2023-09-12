@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "api": "^5.0.8",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "method-override": "^3.0.0",
+    "mongoose": "5.13.17",
+    "mongoose-slug-generator": "^1.0.4",
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "name": "1644",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanh250903/nodejs_thanh/1644.git"
+  },
+  "keywords": [
+    "nodejs",
+    "asm"
+  ],
+  "author": "noel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thanh250903/nodejs_thanh/issues"
+  },
+  "homepage": "https://github.com/Thanh250903/nodejs_thanh/1644#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "morgan": "^1.10.0"
+  },
+  "description": ""
+}
